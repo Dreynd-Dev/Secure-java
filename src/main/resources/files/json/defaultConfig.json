@@ -1,0 +1,13 @@
+{
+  "Whitelist": [],
+  "AntiNuke": {
+    "enabled": true,
+    "maxElements": 5,
+    "expirationTime": 5
+  },
+  "AntiSpam": {
+    "enabled": true,
+    "maxElements": 5,
+    "expirationTime": 5
+  }
+}
