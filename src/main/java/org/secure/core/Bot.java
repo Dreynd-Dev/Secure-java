@@ -24,8 +24,6 @@ public class Bot {
 
     public Bot() {
 
-        String token = "MTEzOTU3NTcyODk1OTEzOTg4MA.GeLlz4.7oSaUJvbd3vmxrV9yU7gEsLwVBrEFV0rHOEM84";
-
         shardManager = DefaultShardManagerBuilder.createDefault(token)
                 .enableIntents(GatewayIntent.getIntents(GatewayIntent.ALL_INTENTS))
                 .setMemberCachePolicy(MemberCachePolicy.ALL)
