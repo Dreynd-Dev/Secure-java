@@ -16,8 +16,6 @@ public class AntiNuke extends PPUserModule {
     @Override
     protected void punishment(Member member) {
 
-        System.out.println("Hello");
-
         AuditableRestAction<Void> ban = member.ban(0, TimeUnit.SECONDS);
         ban.queue();
 
